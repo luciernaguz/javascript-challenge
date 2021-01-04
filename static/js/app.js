@@ -21,11 +21,10 @@ var tableData = data;
 
 var button = d3.select("#filter-btn");
 button.on("click",function(){
-
-
-  let date =d3.select("#datetime").property("value");
+  var inputDate=d3.select("#datetime");
+  let date =inputDate.property("value");
   console.log(date);
-  
+
 });
 
 
