@@ -24,9 +24,16 @@ button.on("click",function(){
   var inputDate=d3.select("#datetime");
   let date =inputDate.property("value");
   console.log(date);
+  //console.log(tableData);
+
+  //data.filter(data => data.datetime === datetime)
+  if(data => data.datetime === date){
+     console.log=(data.datetime);
+  };
+
 
 });
 
-
+//function find_ufo();
 
 
