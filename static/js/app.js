@@ -7,24 +7,27 @@ var tableData = data;
 //var people = data;
 
 // Select the button
-var button = d3.select("#filter-btn");
+//var button = d3.select("#filter-btn");
 
-button.on("click", function() {
+
 
   // Select the input element and get the raw HTML node
   //var inputElement = d3.select("#btn btn-default");
- 
-  //var inputDate = d3.select("#filter-btn");
-  // Get the value property of the input element
-  //var inputValue = inputElement.property("value");
 
-  console.log(button);
-  console.log(tableData);
+// Get the value property of the input element
+// var inputValue = inputElement.property("value");
+//  console.log(inputDate);
+//  console.log(tableData);
 
-//  var filteredData = people.filter(person => person.bloodType === inputValue);
-
-//  console.log(filteredData);
+var button = d3.select("#filter-btn");
+button.on("click",function(){
 
 
-
+  let date =d3.select("#datetime").property("value");
+  console.log(date);
+  
 });
+
+
+
+
